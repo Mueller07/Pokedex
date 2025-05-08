@@ -27,9 +27,9 @@ main {
 }
 
 #form {
-    position: absolute;
-    top: 63%;
-    left: 40%;
+    position: absolute;/*posição absolta de acordo com top e left*/
+    top: 63%;/*63% do topo do contêiner*/
+    left: 40%;/*40% da largura do contêiner*/
 }
 
 #input{
@@ -40,10 +40,10 @@ main {
 }
 
 #nome-pokemon {
-    position: absolute;
-    top: 71%;
-    left: 25%;
-    font-size: 120%;
+    position: absolute;/*posição absolta de acordo com top e left*/
+    top: 71%; /*71% do topo do contêiner*/
+    left: 25%;/*25% da largura do contêiner*/
+    font-size: 120%; /*tamanho da fonte*/
     font-family: Verdana, Geneva, Tahoma, sans-serif; /*alterando a fonte*/
     color: #000000;/*cor do nome*/
     background-color: #bc5959; /*fundo do texto*/
@@ -53,55 +53,55 @@ main {
 }
 
 #informacoes01 {
-    position: absolute;
-    bottom: 17%;
-    left: 25%;
+    position: absolute;/*posição absolta de acordo com bottom e left*/
+    bottom: 17%;/*ajusta a distancia, de baixo para cima*/
+    left: 25%;/*25% de largura do conteiner*/
     font-size: small;/*fonte pequena*/
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;/*alterando a fonte*/
     color: #380000; /*cor da letra*/
     
 }
 
 #informacoes2 {
-    position: absolute;
-    bottom: 4%;
-    left: 25%;
-    color: #002100;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;/*posição absolta de acordo com bottom e left*/
+    bottom: 4%;/*ajusta a distancia, de baixo para cima*/
+    left: 25%;/*25% de largura do conteiner*/
+    color: #002100;/*cor da letra*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;/*alterando fonte*/
 }
 
 #botoes {
-    display: flex;
-    position: absolute;
-    top: 98%;
-    left: 50%;
+    display: flex;/*define o layout "flexivel"*/
+    position: absolute;/*posição absolta de acordo com top e left*/
+    top: 98%; /*98% do topo do conteiner*/
+    left: 50%;/*50% de largura do conteiner*/
     gap: 20%;
 }
 
 button {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 110%;
-    padding: 5px 10px;
-    background-color: #d36666;
-    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;/*alterando fonte*/
+    font-size: 110%;/*tamanhio da fonte*/
+    padding: 5px 10px;/*topo e o fundo terão 5px de espaçamento interno. esquerda e a direita terão 10px de espaçamento interno.*/
+    background-color: #d36666; /*cor de fundo dos botões*/
+    color: black;/*cor da letra presente nos botões*/
 }
 
 #botaoIntro{
-    position: absolute;
-    top: 16%;
-    left: 68%;
-    font-size: 110%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 5px 5px;
-    background-color: #d36666;
-    color: black;
-    border-color: #bc5959;
+    position: absolute;/*posição absolta de acordo com top e left*/
+    top: 16%;/*16% do topo do conteiner*/
+    left: 68%;/*68% de largura do conteiner*/
+    font-size: 110%;/*tamanho da fonte*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*alterando a fonte*/
+    padding: 5px 5px;/*topo e o fundo terão 5px de espaçamento interno. esquerda e a direita terão 5px de espaçamento interno.*/
+    background-color: #d36666;/*cor de fundo do botão intro*/
+    color: black;/*fonte preta*/
+    border-color: #bc5959;/*cor da borda*/
 }
 
 button:hover, #botaoIntro:hover {
-    background-color: #e0a5a5; /* Cor mais clara ao passar o mouse */
+    background-color: #e0a5a5; /* Cor muda ao passar o mouse */
 }
 
 button:active {
-    transform: scale(0.95); /* Efeito de clique */
+    transform: scale(0.95); /* Efeito ao clicar */
 }
