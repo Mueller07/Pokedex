@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./atividadeAvaliativa/style.css"><!-- Linkando o css -->
+</head>
+<body>
+    <main>
+        <div id="container">
+            <!-- Imagem da Pokedex -->
+            <figure id="figPokedex">
+                <img src="https://i.postimg.cc/rFvR7FYR/C-pia-de-pokedex.png" alt="pokedex">
+            </figure>
+            <!-- Imagem do Pokémon -->
+            <figure>
+                <img id="fotoPoke" alt="imagemPokemon">
+            </figure>
+            <!-- aba para pesquisa do Pokémon -->
+            <form id="form" action="">
+                <input id="input" type="text">
+                </form>
+                <!-- Exibição do nome e ID do Pokémon -->
+                <div id="nome-pokemon">
+                <span id="id-pokemon">id - </span>
+                <span id="nome-pok">pokemon</span>
+            </div>
+
+            <!-- Informações sobre o tipo do Pokémon -->
+            <div id="informacoes01">
+                <div id="tipo01">Tipo1</div>
+                <div id="tipo02">Tipo2</div>
+            </div>
+
+             <!-- habilidade, peso e altura do Pokémon -->
+            <div id="informacoes2">
+                <div id="habilidade">Habilidade: </div>
+                <div id="peso">peso: </div>
+                <div id="altura">altura: </div>
+            </div>
+                
+            <!-- Botões de voltar e proximo -->
+            <div id="botoes">
+                <button id="voltar"><</button>
+                <button id="proximo">></button>
+        </div>
+
+        <!-- Botão para tocar o áudio de introdução -->
+        <div>
+            <button id="botaoIntro">Tocar intro</button>
+        </div>
+        <!-- Áudio de introdução e som dos Pokémon -->
+        <audio id="audioIntro" src="https://s21.aconvert.com/convert/p3r68-cdx67/i36lv-wblnq.mp3"></audio>
+        <audio id="audioPoke" src=""></audio>
+    </main>
+    <!-- linkando o script -->
+    <script src="./atividadeAvaliativa/script.js"></script>
+</body>
+</html>
