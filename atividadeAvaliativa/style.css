@@ -1,0 +1,107 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), 
+    url('https://i.postimg.cc/rmBbXT1y/image.png'); /*define uma imagem de fundo com um gradiente escuro*/
+}
+
+main {
+    display: flex; /*define o layout "flexivel"*/
+    justify-content: center; /*centraliza o conteudo*/
+    padding: 20px; /*espaçamento*/
+}
+
+#figPokedex {
+    width: 400px; /*largura da imagem*/
+    height: 600px;/*altura*/
+}
+
+#container {
+    position: relative; /*posição relativa para facilitar*/
+    width: 400px; /*largura*/
+    height: 600px;/*alura*/
+}
+
+#fotoPoke {
+    position: absolute;/*posição absolta de acordo com top e left*/
+    top: 35%; /*35% do topo do contêiner*/
+    left: 45%; /*45% da largura do contêiner*/
+}
+
+#form {
+    position: absolute;
+    top: 63%;
+    left: 40%;
+}
+
+#input{
+    font-size: 12px; /*tamanho da fonte*/
+    text-align: center; /*centraliza o texto dentro do input*/
+    border-radius: 4px;/*borda arredondada*/
+    border: 1% solid #999; /*cor da borda*/
+}
+
+#nome-pokemon {
+    position: absolute;
+    top: 71%;
+    left: 25%;
+    font-size: 120%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*alterando a fonte*/
+    color: #000000;/*cor do nome*/
+    background-color: #bc5959; /*fundo do texto*/
+    box-shadow: 2px 2px 5px rgba(111, 15, 15, 0.7);/*sombra da caixa de texto*/
+    padding: 2px; /*espaço interno*/
+    border-radius: 5px; /*borda arredondada*/
+}
+
+#informacoes01 {
+    position: absolute;
+    bottom: 17%;
+    left: 25%;
+    font-size: small;/*fonte pequena*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #380000; /*cor da letra*/
+    
+}
+
+#informacoes2 {
+    position: absolute;
+    bottom: 4%;
+    left: 25%;
+    color: #002100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#botoes {
+    display: flex;
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    gap: 20%;
+}
+
+button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 110%;
+    padding: 5px 10px;
+    background-color: #d36666;
+    color: black;
+}
+
+#botaoIntro{
+    position: absolute;
+    top: 16%;
+    left: 68%;
+    font-size: 110%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px 5px;
+    background-color: #d36666;
+    color: black;
+    border-color: #bc5959;
+}
+
+button:hover, #botaoIntro:hover {
+    background-color: #e0a5a5; /* Cor mais clara ao passar o mouse */
+}
+
+button:active {
+    transform: scale(0.95); /* Efeito de clique */
+}
