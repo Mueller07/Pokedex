@@ -63,6 +63,9 @@ function segundaImage(gif, image) {
     return;
 }
 
+// Mostra o primeiro Pokémon ao carregar a página
+showPokemon(numeroPokedex);
+
 
 // busca o pokemon através do id digitado
 formPoke.addEventListener("submit", (event) => {
